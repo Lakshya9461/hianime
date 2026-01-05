@@ -1,0 +1,13 @@
+{
+  "id": "hianime",
+  "name": "HiAnime",
+  "version": "1.0.0",
+  "type": "anime",
+  "manifestVersion": 1,
+  "manifestURI": "https://raw.githubusercontent.com/Lakshya9461/Seanime-Providers/main/hianime/manifest.json",
+  "baseURL": "https://hianimez.is",
+  "homepage": "https://hianimez.is/home",
+  "description": "Anime streaming provider for HiAnime",
+  "language": "en",
+  "nsfw": false
+}
