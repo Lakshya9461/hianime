@@ -2,12 +2,22 @@
   "id": "hianime",
   "name": "HiAnime",
   "version": "1.0.0",
-  "type": "anime",
   "manifestVersion": 1,
-  "manifestURI": "https://raw.githubusercontent.com/Lakshya9461/Seanime-Providers/main/hianime/manifest.json",
-  "baseURL": "https://hianimez.is",
-  "homepage": "https://hianimez.is/home",
-  "description": "Anime streaming provider for HiAnime",
+  "type": "anime",
   "language": "en",
-  "nsfw": false
+  "author": "Community",
+  "description": "HiAnime provider for Seanime",
+  "homepage": "https://hianimez.is/home",
+  "baseURL": "https://hianimez.is",
+  "manifestURI": "https://raw.githubusercontent.com/Lakshya9461/hianime/main/manifest.json",
+
+  "payload": {
+    "type": "scraper",
+    "routes": {
+      "search": "/search?keyword={query}",
+      "anime": "/watch/{id}",
+      "episodes": "/ajax/episode/list/{id}",
+      "stream": "/ajax/episode/sources/{episodeId}"
+    }
+  }
 }
