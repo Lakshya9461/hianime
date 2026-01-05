@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "manifestVersion": 1,
   "type": "anime",
-  "language": "en",
+  "language": "all",
   "author": "Community",
   "description": "HiAnime provider for Seanime",
   "homepage": "https://hianimez.is/home",
