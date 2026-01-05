@@ -10,14 +10,5 @@
   "homepage": "https://hianimez.is/home",
   "baseURL": "https://hianimez.is",
   "manifestURI": "https://raw.githubusercontent.com/Lakshya9461/hianime/main/manifest.json",
-
-  "payload": {
-    "type": "scraper",
-    "routes": {
-      "search": "/search?keyword={query}",
-      "anime": "/watch/{id}",
-      "episodes": "/ajax/episode/list/{id}",
-      "stream": "/ajax/episode/sources/{episodeId}"
-    }
-  }
+  "payload": "index.js"
 }
