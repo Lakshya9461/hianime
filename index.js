@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = async () => ({
   name: "HiAnime",
   baseUrl: "https://hianimez.is",
 
@@ -17,4 +17,4 @@ module.exports = {
   async getStream(episodeId) {
     return [];
   }
-};
+});
