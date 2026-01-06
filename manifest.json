@@ -2,12 +2,12 @@
   "id": "hianime",
   "name": "HiAnime",
   "description": "HiAnime is an online streaming provider for subbed anime",
-  "manifestURI": "https://raw.githubusercontent.com/Lakshya9461/hianime/master/manifest.json",
+  "manifestURI": "https://raw.githubusercontent.com/Lakshya9461/hianime/refs/heads/master/manifest.json",
   "version": "1.0.0",
   "author": "Lakshya",
   "type": "onlinestream-provider",
   "language": "javascript",
   "lang": "en",
   "icon": "https://raw.githubusercontent.com/Lakshya9461/hianime/master/hianime.png",
-  "payloadURI": "https://raw.githubusercontent.com/Lakshya9461/hianime/refs/heads/master/index.js?token=GHSAT0AAAAAADPDPA3VQC5EUWBFJULWVK5A2K3PTRQ"
+  "payloadURI": "https://raw.githubusercontent.com/Lakshya9461/hianime/refs/heads/master/index.js"
 }
